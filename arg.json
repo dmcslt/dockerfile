@@ -223,6 +223,23 @@
           "8.0.0-910b-openeuler22.03-py3.10"
         ]
       }
+    },
+    {
+      "cann_version": "8.2.RC1",
+      "cann_chip": "910b",
+      "os_name": "ubuntu",
+      "os_version": "22.04",
+      "py_version": "3.11",
+      "tags": {
+        "common": [
+          "8.2.rc1-910b-ubuntu22.04-py3.11",
+          "8.2.rc1",
+          "ubuntu-python3.11-cann8.2.rc1"
+        ],
+        "ascendhub": [
+          "8.2.rc1-910b-ubuntu22.04-py3.11"
+        ]
+      }
     }
   ],
   "python": [
@@ -399,6 +416,19 @@
           "ubuntu-python3.8-cann8.0.rc1-pytorch2.2.0"
         ],
         "ascendhub": [
+        ]
+      }
+    },
+    {
+      "pytorch_version": "2.7.1",
+      "cann_tag": "8.2.rc1-910b-ubuntu22.04-py3.11",
+      "tags": {
+        "common": [
+          "2.7.1",
+          "ubuntu-python3.11-cann8.2.rc1-pytorch2.7.1"
+        ],
+        "ascendhub": [
+          "2.7.1"
         ]
       }
     }

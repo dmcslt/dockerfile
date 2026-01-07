@@ -16,6 +16,10 @@ RUN if [ "${PYTORCH_VERSION}" == "2.1.0" ]; then \
         TORCH_VISION_VERSION=0.17.0; \
         TORCH_AUDIO_VERSION=2.2.0; \
         TORCH_NPU_VERSION=2.2.0; \
+    elif [ "${PYTORCH_VERSION}" == "2.7.1" ]; then \
+        TORCH_VISION_VERSION=0.22.1; \
+        TORCH_AUDIO_VERSION=2.7.1; \
+        TORCH_NPU_VERSION=2.7.1; \
     else \
         echo "Not supported version: ${PYTORCH_VERSION}."; \
         exit 1; \
