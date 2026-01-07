@@ -3,7 +3,7 @@
     {
       "name": "dockerhub",
       "url": "docker.io",
-      "owner": "ascendai"
+      "owner": "kaer"
     },
     {
       "name": "quay",
