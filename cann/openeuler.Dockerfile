@@ -3,7 +3,7 @@ ARG BASE_VERSION=latest
 ARG PY_VERSION=3.8
 
 # Stage 1: Install CANN
-FROM ascendai/python:${PY_VERSION}-openeuler${BASE_VERSION} AS cann-installer
+FROM kaer/python:${PY_VERSION}-openeuler${BASE_VERSION} AS cann-installer
 
 # Arguments
 ARG PLATFORM=${TARGETPLATFORM}

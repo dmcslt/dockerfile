@@ -1,5 +1,5 @@
 ARG BASE_VERSION=latest
-FROM ascendai/cann:${BASE_VERSION} as official
+FROM kaer/cann:${BASE_VERSION} as official
 
 # Arguments
 ARG MINDSPORE_VERSION=2.2.14
