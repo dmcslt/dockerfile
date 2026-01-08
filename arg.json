@@ -18,154 +18,6 @@
   ],
   "cann": [
     {
-      "cann_version": "7.0.1",
-      "cann_chip": "910b",
-      "os_name": "ubuntu",
-      "os_version": "22.04",
-      "py_version": "3.8",
-      "tags": {
-        "common": [
-          "7.0.1-910b-ubuntu22.04-py3.8",
-          "7.0.1",
-          "ubuntu-python3.8-cann7.0.1"
-        ]
-      }
-    },
-    {
-      "cann_version": "7.0.1",
-      "cann_chip": "910b",
-      "os_name": "openeuler",
-      "os_version": "22.03",
-      "py_version": "3.8",
-      "tags": {
-        "common": [
-          "7.0.1-910b-openeuler22.03-py3.8",
-          "openeuler-python3.8-cann7.0.1"
-        ]
-      }
-    },
-    {
-      "cann_version": "8.0.RC1",
-      "cann_chip": "910b",
-      "os_name": "ubuntu",
-      "os_version": "22.04",
-      "py_version": "3.8",
-      "tags": {
-        "common": [
-          "8.0.rc1-910b-ubuntu22.04-py3.8",
-          "8.0.rc1",
-          "ubuntu-python3.8-cann8.0.rc1"
-        ]
-      }
-    },
-    {
-      "cann_version": "8.0.RC1",
-      "cann_chip": "910b",
-      "os_name": "openeuler",
-      "os_version": "22.03",
-      "py_version": "3.8",
-      "tags": {
-        "common": [
-          "8.0.rc1-910b-openeuler22.03-py3.8",
-          "openeuler-python3.8-cann8.0.rc1"
-        ]
-      }
-    },
-    {
-      "cann_version": "8.0.RC2",
-      "cann_chip": "910b",
-      "os_name": "openeuler",
-      "os_version": "22.03",
-      "py_version": "3.8",
-      "tags": {
-        "common": [
-          "8.0.rc2-910b-openeuler22.03-py3.8",
-          "openeuler-python3.8-cann8.0.rc2"
-        ]
-      }
-    },
-    {
-      "cann_version": "8.0.RC2",
-      "cann_chip": "910b",
-      "os_name": "openeuler",
-      "os_version": "22.03",
-      "py_version": "3.10",
-      "tags": {
-        "common": [
-          "8.0.rc2-910b-openeuler22.03-py3.10",
-          "openeuler-python3.10-cann8.0.rc2"
-        ]
-      }
-    },
-    {
-      "cann_version": "8.0.RC2",
-      "cann_chip": "910b",
-      "os_name": "ubuntu",
-      "os_version": "22.04",
-      "py_version": "3.10",
-      "tags": {
-        "common": [
-          "8.0.rc2-910b-ubuntu22.04-py3.10",
-          "8.0.rc2",
-          "ubuntu-python3.10-cann8.0.rc2"
-        ]
-      }
-    },
-    {
-      "cann_version": "8.0.RC3",
-      "cann_chip": "910b",
-      "os_name": "ubuntu",
-      "os_version": "22.04",
-      "py_version": "3.10",
-      "tags": {
-        "common": [
-        "8.0.rc3-910b-ubuntu22.04-py3.10",
-        "ubuntu-python3.10-cann8.0.rc3"
-        ]
-      }
-    },
-    {
-      "cann_version": "8.0.RC3",
-      "cann_chip": "910b",
-      "os_name": "openeuler",
-      "os_version": "22.03",
-      "py_version": "3.10",
-      "tags": {
-        "common": [
-          "8.0.rc3-910b-openeuler22.03-py3.10",
-          "openeuler-python3.10-cann8.0.rc3"
-        ]
-      }
-    },
-    {
-      "cann_version": "8.0.0",
-      "cann_chip": "910b",
-      "os_name": "ubuntu",
-      "os_version": "22.04",
-      "py_version": "3.10",
-      "tags": {
-        "common": [
-          "8.0.0-910b-ubuntu22.04-py3.10",
-          "8.0.0",
-          "latest",
-          "ubuntu-python3.10-cann8.0.0"
-        ]
-      }
-    },
-    {
-      "cann_version": "8.0.0",
-      "cann_chip": "910b",
-      "os_name": "openeuler",
-      "os_version": "22.03",
-      "py_version": "3.10",
-      "tags": {
-        "common": [
-          "8.0.0-910b-openeuler22.03-py3.10",
-          "openeuler-python3.10-cann8.0.0"
-        ]
-      }
-    },
-    {
       "cann_version": "8.2.RC1",
       "cann_chip": "910b",
       "os_name": "ubuntu",
@@ -178,20 +30,52 @@
           "ubuntu-python3.11-cann8.2.rc1"
         ]
       }
-    }
-  ],
-  "python": [
+    },
     {
-      "py_version": "3.8",
+      "cann_version": "8.2.RC2",
+      "cann_chip": "910b",
       "os_name": "ubuntu",
       "os_version": "22.04",
+      "py_version": "3.11",
       "tags": {
         "common": [
-          "3.8-ubuntu22.04",
-          "3.8"
+          "8.2.rc2-910b-ubuntu22.04-py3.11",
+          "8.2.rc2",
+          "latest",
+          "ubuntu-python3.11-cann8.2.rc2"
         ]
       }
     },
+    {
+      "cann_version": "8.3.RC1",
+      "cann_chip": "910b",
+      "os_name": "ubuntu",
+      "os_version": "22.04",
+      "py_version": "3.11",
+      "tags": {
+        "common": [
+          "8.3.rc1-910b-ubuntu22.04-py3.11",
+          "8.3.rc1",
+          "ubuntu-python3.11-cann8.3.rc1"
+        ]
+      }
+    },
+    {
+      "cann_version": "8.3.RC2",
+      "cann_chip": "910b",
+      "os_name": "ubuntu",
+      "os_version": "22.04",
+      "py_version": "3.11",
+      "tags": {
+        "common": [
+          "8.3.rc2-910b-ubuntu22.04-py3.11",
+          "8.3.rc2",
+          "ubuntu-python3.11-cann8.3.rc2"
+        ]
+      }
+    }
+  ],
+  "python": [
     {
       "py_version": "3.10",
       "os_name": "ubuntu",
@@ -233,16 +117,6 @@
         "common": [
           "3.13-ubuntu22.04",
           "3.13"
-        ]
-      }
-    },
-    {
-      "py_version": "3.8",
-      "os_name": "openeuler",
-      "os_version": "22.03",
-      "tags": {
-        "common": [
-          "3.8-openeuler22.03"
         ]
       }
     },
@@ -289,22 +163,12 @@
   ],
   "pytorch": [
     {
-      "pytorch_version": "2.1.0",
-      "cann_tag": "8.0.rc1-910b-ubuntu22.04-py3.8",
+      "pytorch_version": "2.6.0",
+      "cann_tag": "8.2.rc1-910b-ubuntu22.04-py3.11",
       "tags": {
         "common": [
-          "2.1.0",
-          "ubuntu-python3.8-cann8.0.rc1-pytorch2.1.0"
-        ]
-      }
-    },
-    {
-      "pytorch_version": "2.2.0",
-      "cann_tag": "8.0.rc1-910b-ubuntu22.04-py3.8",
-      "tags": {
-        "common": [
-          "2.2.0",
-          "ubuntu-python3.8-cann8.0.rc1-pytorch2.2.0"
+          "2.6.0",
+          "ubuntu-python3.11-cann8.2.rc1-pytorch2.6.0"
         ]
       }
     },
@@ -314,6 +178,7 @@
       "tags": {
         "common": [
           "2.7.1",
+          "latest",
           "ubuntu-python3.11-cann8.2.rc1-pytorch2.7.1"
         ]
       }
