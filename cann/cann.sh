@@ -152,10 +152,12 @@ CANN_CHIP=${CANN_CHIP:="910b"}
 CANN_VERSION=${CANN_VERSION:="8.0.0"}
 
 # NOTE: kernels are arch-specific after 8.0.RC3.alpha002
-if [[ ${CANN_VERSION} == "8.0.RC3" || ${CANN_VERSION} == "8.0.0" ]]; then
-  KERNELS_ARCH="linux-${ARCH}"
-else
+# Only old versions (before 8.0.RC3) use non-arch-specific filenames
+if [[ ${CANN_VERSION} == "7."* || ${CANN_VERSION} == "8.0.RC1"* || ${CANN_VERSION} == "8.0.RC2"* ]]; then
   KERNELS_ARCH="linux"
+else
+  # All versions from 8.0.RC3 onwards (including 8.0.0, 8.1.x, 8.2.x, 8.3.x, etc.) use arch-specific filenames
+  KERNELS_ARCH="linux-${ARCH}"
 fi
 
 TOOLKIT_FILE="Ascend-cann-toolkit_${CANN_VERSION}_linux-${ARCH}.run"
